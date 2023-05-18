@@ -738,11 +738,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: waline
 
 
 #---------------------------
@@ -824,7 +824,8 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 waline:
-  serverURL: ''
+  serverURL: 'https://waline.zhanglh.eu.org'
+  placeholder: '遗憾莫过于难忘你的背影，却找不到你来过的痕迹 ...'
   path: window.location.pathname
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']
