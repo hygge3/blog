@@ -286,7 +286,7 @@ web_analytics:  # 网页访问统计
     app_key: mSpXwmQig2lZCZhFeUu2KwZG
     # REST API 服务器地址，国际版不填
     # Only the Chinese mainland users need to set
-    server_url:
+    server_url: https://urhv07qm.api.lncldglobal.com
     # 统计页面时获取路径的属性
     # Get the attribute of the page path during statistics
     path: window.location.pathname
