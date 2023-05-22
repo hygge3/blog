@@ -286,7 +286,7 @@ web_analytics:  # 网页访问统计
     app_key: mSpXwmQig2lZCZhFeUu2KwZG
     # REST API 服务器地址，国际版不填
     # Only the Chinese mainland users need to set
-    server_url: https://urhv07qm.api.lncldglobal.com
+    server_url: 
     # 统计页面时获取路径的属性
     # Get the attribute of the page path during statistics
     path: window.location.pathname
@@ -442,7 +442,7 @@ footer:
     # 统计数据来源，使用 leancloud 需要设置 `web_analytics: leancloud` 中的参数；使用 busuanzi 不需要额外设置，但是有时不稳定，另外本地运行时 busuanzi 显示统计数据很大属于正常现象，部署后会正常
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
     # Options: busuanzi | leancloud
-    source: "leancloud"
+    source: "busuanzi"
 
     # 显示的文本，{}是数字的占位符（必须包含)，下同
     pv_format: "总访问量 {} 次"  
@@ -592,7 +592,7 @@ post:
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud
-      source: "leancloud"
+      source: "busuanzi"
       format: "{} 次"
 
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
