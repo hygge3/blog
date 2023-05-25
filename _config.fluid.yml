@@ -741,7 +741,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: waline
+    type: giscus
 
 
 #---------------------------
@@ -883,10 +883,10 @@ cusdis:
 # Based on GitHub Discussions, similar to Utterances
 # See: https://giscus.app/
 giscus:
-  repo:
-  repo-id:
-  category:
-  category-id:
+  repo: hygge3/blog-giscus
+  repo-id: R_kgDOJnc-sw
+  category: General
+  category-id: DIC_kwDOJnc-s84CWu_X
   theme-light: light
   theme-dark: dark
   mapping: pathname
