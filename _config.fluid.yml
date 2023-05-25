@@ -889,11 +889,12 @@ giscus:
   category-id: DIC_kwDOJkoKHc4CWvKX
   theme-light: light
   theme-dark: dark
-  mapping: pathname
+  mapping: title
   reactions-enabled: 1
   emit-metadata: 0
   input-position: top
   lang: zh-CN
+  loading: lazy
 
 #---------------------------
 # 归档页
