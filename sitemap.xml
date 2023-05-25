@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://hygge3.github.io/2023/05/25/hexo-init/</loc>
+    
+    <lastmod>2023-05-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hygge3.github.io/about/</loc>
     
     <lastmod>2023-05-25</lastmod>
@@ -28,6 +37,34 @@
   </url>
 
   
+  <url>
+    <loc>https://hygge3.github.io/tags/Blog/</loc>
+    <lastmod>2023-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hygge3.github.io/tags/Hexo/</loc>
+    <lastmod>2023-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hygge3.github.io/tags/%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2023-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://hygge3.github.io/categories/Hexo/</loc>
+    <lastmod>2023-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
