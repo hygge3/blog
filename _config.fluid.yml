@@ -250,7 +250,7 @@ web_analytics:  # 网页访问统计
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
   # Baidu analytics, get the string behind `hm.js?`
   # See: https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376
-  baidu:
+  baidu: 19196149
 
   # Google 统计的 Tracking ID
   # Google analytics, set Tracking ID
@@ -282,8 +282,8 @@ web_analytics:  # 网页访问统计
   # LeanCloud 计数统计，可用于 PV UV 展示，如果 `web_analytics: enable` 没有开启，PV UV 展示只会查询不会增加
   # LeanCloud count statistics, which can be used for PV UV display. If `web_analytics: enable` is false, PV UV display will only query and not increase
   leancloud:
-    app_id: URhV07QM8caB0g580SIIooZ8-MdYXbMMI
-    app_key: mSpXwmQig2lZCZhFeUu2KwZG
+    app_id: 
+    app_key: 
     # REST API 服务器地址，国际版不填
     # Only the Chinese mainland users need to set
     server_url: 
@@ -424,9 +424,9 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <!--<a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>-->
     <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <!--<a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>-->
     <div style="font-size: 0.85rem">
       <span id="timeDate">载入天数...</span>
       <span id="times">载入时分秒...</span>
@@ -520,7 +520,7 @@ index:
   # 打开文章的标签方式
   # The browser tag to open the post
   # Available: _blank | _self
-  post_url_target: _self
+  post_url_target: _blank
 
   # 是否显示文章信息（时间、分类、标签）
   # Meta information of post
@@ -598,7 +598,7 @@ post:
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
   updated:
-    enable: true
+    enable: false
 
     # 格式参照 ISO-8601 日期格式化
     # ISO-8601 date format
@@ -1023,12 +1023,12 @@ links:
       link: "https://hexo.fluid-dev.com/docs/",
       avatar: "/img/favicon.png"
     }
-    - {
-      title: "Fluid Repo",
-      intro: "主题 GitHub 仓库",
-      link: "https://github.com/fluid-dev/hexo-theme-fluid",
-      avatar: "/img/favicon.png"
-    }
+    # - {
+    #   title: "Fluid Repo",
+    #   intro: "主题 GitHub 仓库",
+    #   link: "https://github.com/fluid-dev/hexo-theme-fluid",
+    #   avatar: "/img/favicon.png"
+    # }
     - {
       title: "Lemonxu's Blog",
       intro: "Lemonxu's Blog",
