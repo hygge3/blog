@@ -883,10 +883,10 @@ cusdis:
 # Based on GitHub Discussions, similar to Utterances
 # See: https://giscus.app/
 giscus:
-  repo: hygge3/blog-giscus
-  repo-id: R_kgDOJnc-sw
+  repo: hygge3/blog
+  repo-id: R_kgDOJkoKHQ
   category: General
-  category-id: DIC_kwDOJnc-s84CWu_X
+  category-id: DIC_kwDOJkoKHc4CWvKX
   theme-light: light
   theme-dark: dark
   mapping: pathname
