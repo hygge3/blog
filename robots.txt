@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://hygge.eu.org/sitemap.xml
-Sitemap: https://hygge.eu.org/sitemap.txt
-Sitemap: https://hygge.eu.org/baidusitemap.xml
