@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>解除 Xshell/Xftp 7 个人免费版退出弹窗</title>
+    <link href="/posts/160ecfdc.html"/>
+    <url>/posts/160ecfdc.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li>电脑已安装 <a href="https://www.netsarang.com/en/free-for-home-school/">Xshell&#x2F;Xftp 7</a>，且运行过一次</li><li>Windows 下有可以读取 HEX 的编辑程序（也可以使用在线编辑器 <a href="https://hexed.it/">HexEd</a> 在线平台）</li></ol><h2 id="Xshell-修改步骤"><a href="#Xshell-修改步骤" class="headerlink" title="Xshell 修改步骤"></a>Xshell 修改步骤</h2><ol><li>找到 Xshell 7 图标，右键 –  打开文件所在的位置 – 找到 Xshell.exe（建议备份该执行文件）</li><li>打开 HexEd 在线平台，左上角【打开文件】，选择 Xshell.exe 文件，然后查找：<br><code>74 11 6A 00 6A 07 6A 01</code><br>将第一位的74替换为EB，修改后的结果为：<br><code>EB 11 6A 00 6A 07 6A 01</code></li><li>保存文件</li></ol><h2 id="Xftp-修改步骤"><a href="#Xftp-修改步骤" class="headerlink" title="Xftp 修改步骤"></a>Xftp 修改步骤</h2><ol><li>找到 Xftp 7 图标，右键 –  打开文件所在的位置 – 找到 Xftp.exe（建议备份该执行文件）</li><li>打开 HexEd 在线平台，左上角【打开文件】，选择 Xftp.exe 文件，然后查找：<br><code>75 10 6A 00 6A 07 50 6A</code><br>将第一位的74替换为EB，修改后的结果为：<br><code>EB 10 6A 00 6A 07 50 6A</code></li><li>保存文件</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件修改</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Xshell</tag>
+      
+      <tag>Xftp</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hexo 安装</title>
     <link href="/posts/1b0927de.html"/>
     <url>/posts/1b0927de.html</url>
