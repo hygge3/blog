@@ -1,6 +1,7 @@
 ---
 title: 解除 Xshell/Xftp 7 个人免费版退出弹窗
 date: 2023-06-12 08:16:09
+excerpt: Xshell 是一个强大的安全终端模拟软件，它支持SSH1, SSH2, 以及Microsoft Windows 平台的TELNET 协议。
 tags:
 - Xshell
 - Xftp

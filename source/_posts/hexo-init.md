@@ -1,6 +1,7 @@
 ---
 title: Hexo 安装
 date: 2023-05-25 21:28:23
+excerpt: Hexo 是一个快速、简洁且高效的博客框架。
 tags:
 - Blog
 - Hexo
@@ -9,7 +10,7 @@ categories:
 ---
 # 什么是 Hexo？
 
-Hexo 是一个快速、简洁且高效的博客框架。Hexo 基于 Node.js 实现，使用 [Markdown](https://daringfireball.net/projects/markdown/)（或其他渲染引擎）解析文章，可以帮助用户在几秒内利用靓丽的主题生成静态网页。
+Hexo 基于 Node.js 实现，使用 [Markdown](https://daringfireball.net/projects/markdown/)（或其他渲染引擎）解析文章，可以帮助用户在几秒内利用靓丽的主题生成静态网页。
 
 Hexo 框架具有如下特性：
 
