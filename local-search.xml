@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Typora 修改</title>
+    <link href="/posts/14ca9fa7.html"/>
+    <url>/posts/14ca9fa7.html</url>
+    
+    <content type="html"><![CDATA[<p>Typora是一款轻便简洁的Markdown编辑器，支持即时渲染技术，这也是与其他Markdown编辑器最显著的区别。即时渲染使得你写Markdown就想是写Word文档一样流畅自如，不像其他编辑器的有编辑栏和显示栏。</p><p>0.11.18 版本以下均为免费版</p><p><strong>正式版修改说明：</strong></p><ol><li><p>安装原版</p><p> <a href="https://download.typora.io/windows/typora-setup-x64-1.6.7.exe">https://download.typora.io/windows/typora-setup-x64-1.6.7.exe</a></p></li><li><p>下载补丁(有效期24小时)</p><p> <a href="http://qingwendang.com/download.html%E3%80%82%E6%8F%90%E5%8F%96%E7%A0%81:pBw7uc">http://qingwendang.com/download.html。提取码:pBw7uc</a></p></li><li><p>把补丁复制到安装目录下</p></li></ol><blockquote><p>推荐使用另一款微软商店的免费软件 Typedown，功能没有 Typora 丰富，但可以日常使用了<br><a href="https://www.microsoft.com/store/productId/9P8TCW4H2HB4">https://www.microsoft.com/store/productId/9P8TCW4H2HB4</a></p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件修改</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Typora</tag>
+      
+      <tag>Typedown</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Google 翻译修复</title>
     <link href="/posts/78771240.html"/>
     <url>/posts/78771240.html</url>
