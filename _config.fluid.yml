@@ -245,7 +245,7 @@ web_analytics:  # 网页访问统计
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
   # Follow the "Do Not Track" setting of the visitor's browser
   # See: https://www.w3.org/TR/tracking-dnt/
-  follow_dnt: true
+  follow_dnt: false
 
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
   # Baidu analytics, get the string behind `hm.js?`
@@ -407,7 +407,7 @@ scroll_top_arrow:
 # Open Graph metadata
 # See: https://hexo.io/docs/helpers.html#open-graph
 open_graph:
-  enable: fasle
+  enable: false
   twitter_card: summary_large_image
   twitter_id:
   twitter_site:
@@ -996,7 +996,7 @@ page404:
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
   # Delay in redirecting to home page (milliseconds)
-  redirect_delay: 5000
+  redirect_delay: 10000
 
 
 #---------------------------
@@ -1012,28 +1012,16 @@ links:
   # Member item of page
   items:
     - {
+      title: "Lemonxu's Blog",
+      intro: "❤",
+      link: "https://Lemonxu.eu.org",
+      avatar: "https://lemonxu.eu.org/images/user.jpg"
+    }
+    - {
       title: "Fluid Blog",
       intro: "主题博客",
       link: "https://hexo.fluid-dev.com/",
-      avatar: "/img/favicon.png"
-    }
-    - {
-      title: "Fluid Docs",
-      intro: "主题使用指南",
-      link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "/img/favicon.png"
-    }
-    # - {
-    #   title: "Fluid Repo",
-    #   intro: "主题 GitHub 仓库",
-    #   link: "https://github.com/fluid-dev/hexo-theme-fluid",
-    #   avatar: "/img/favicon.png"
-    # }
-    - {
-      title: "Lemonxu's Blog",
-      intro: "Lemonxu's Blog",
-      link: "https://Lemonxu.github.io",
-      avatar: "/img/favicon.png"
+      avatar: "https://hexo.fluid-dev.com/img/avatar.png"
     }
 
   # 当成员头像加载失败时，替换为指定图片

@@ -19,7 +19,7 @@ Typora是一款轻便简洁的Markdown编辑器，支持即时渲染技术，这
 
 2. 下载补丁(有效期24小时)
 
-    http://qingwendang.com/download.html。提取码:pBw7uc
+    http://qingwendang.com/download.html 提取码:pBw7uc
 
 
 3. 把补丁复制到安装目录下
