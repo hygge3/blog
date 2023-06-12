@@ -4,11 +4,65 @@
   
   
   <entry>
+    <title>Google 翻译修复</title>
+    <link href="/posts/78771240.html"/>
+    <url>/posts/78771240.html</url>
+    
+    <content type="html"><![CDATA[<p>Google 翻译服务已经在中国停止提供，原本的网址 <a href="http://translate.google.cn/">http://translate.google.cn</a> 亦已经换成了普通的 Google Search 搜寻页面，上述转变影响到中国用户在使用 Chrome 浏览器时，将无法使用翻译功能。</p><p>使用下边的方法，可以复活翻译功能。软件支持不仅支持 Windows，还提供了对 Mac，Linux 的支持，操作是一样的。</p><ol><li><p>下载GoogleTranslateIpCheck</p><p> <a href="https://github.com/Ponderfly/GoogleTranslateIpCheck">https://github.com/Ponderfly/GoogleTranslateIpCheck</a></p></li><li><p>双击运行GoogleTranslateIpCheck</p></li><li><p>等待所有的IP检测结束，软件会自动选择延迟最低的IP地址。</p></li><li><p>此时会提示是否设置到Host文件时输入Y，软件会自动完成所有操作；</p></li><li><p>此时再打开右键翻译，选择一个页面，重新点击翻译；</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件修改</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Google Translate</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Debian 更换软件源</title>
+    <link href="/posts/14a1a1a5.html"/>
+    <url>/posts/14a1a1a5.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="备份原有的源"><a href="#备份原有的源" class="headerlink" title="备份原有的源"></a>备份原有的源</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo <span class="hljs-built_in">cp</span> /etc/apt/sources.list /etc/apt/sources.list.backup<br></code></pre></td></tr></table></figure><h2 id="选择源"><a href="#选择源" class="headerlink" title="选择源"></a>选择源</h2><p>常用镜像站：<a href="https://mirrors.quickso.cn/">https://mirrors.quickso.cn</a></p><h2 id="更换源"><a href="#更换源" class="headerlink" title="更换源"></a>更换源</h2><p>编辑&#x2F;etc&#x2F;apt&#x2F;sources.list文件(需要使用sudo)</p><h2 id="更新源"><a href="#更新源" class="headerlink" title="更新源"></a>更新源</h2><p>更新源：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo apt update<br></code></pre></td></tr></table></figure><p>更新软件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo apt-get upgrade<br></code></pre></td></tr></table></figure><p>修复损坏的软件包，尝试卸载出错的包，重新安装正确版本的</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo apt -f install<br></code></pre></td></tr></table></figure><blockquote><p>推荐使用一键换源脚本<br><a href="https://linuxmirrors.cn/">https://linuxmirrors.cn/</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">bash &lt;(curl -sSL https://linuxmirrors.cn/main.sh)<br></code></pre></td></tr></table></figure></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>Linux</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Linux</tag>
+      
+      <tag>Debian</tag>
+      
+      <tag>软件源</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>解除 Xshell/Xftp 7 个人免费版退出弹窗</title>
     <link href="/posts/160ecfdc.html"/>
     <url>/posts/160ecfdc.html</url>
     
-    <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li>电脑已安装 <a href="https://www.netsarang.com/en/free-for-home-school/">Xshell&#x2F;Xftp 7</a>，且运行过一次</li><li>Windows 下有可以读取 HEX 的编辑程序（也可以使用在线编辑器 <a href="https://hexed.it/">HexEd</a> 在线平台）</li></ol><h2 id="Xshell-修改步骤"><a href="#Xshell-修改步骤" class="headerlink" title="Xshell 修改步骤"></a>Xshell 修改步骤</h2><ol><li>找到 Xshell 7 图标，右键 –  打开文件所在的位置 – 找到 Xshell.exe（建议备份该执行文件）</li><li>打开 HexEd 在线平台，左上角【打开文件】，选择 Xshell.exe 文件，然后查找：<br><code>74 11 6A 00 6A 07 6A 01</code><br>将第一位的74替换为EB，修改后的结果为：<br><code>EB 11 6A 00 6A 07 6A 01</code></li><li>保存文件</li></ol><h2 id="Xftp-修改步骤"><a href="#Xftp-修改步骤" class="headerlink" title="Xftp 修改步骤"></a>Xftp 修改步骤</h2><ol><li>找到 Xftp 7 图标，右键 –  打开文件所在的位置 – 找到 Xftp.exe（建议备份该执行文件）</li><li>打开 HexEd 在线平台，左上角【打开文件】，选择 Xftp.exe 文件，然后查找：<br><code>75 10 6A 00 6A 07 50 6A</code><br>将第一位的74替换为EB，修改后的结果为：<br><code>EB 10 6A 00 6A 07 50 6A</code></li><li>保存文件</li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li>电脑已安装 <a href="https://www.netsarang.com/en/free-for-home-school/">Xshell&#x2F;Xftp 7</a>，且运行过一次</li><li>Windows 下有可以读取 HEX 的编辑程序（也可以使用在线编辑器 <a href="https://hexed.it/">HexEd</a> 在线平台）</li></ol><h2 id="Xshell-修改步骤"><a href="#Xshell-修改步骤" class="headerlink" title="Xshell 修改步骤"></a>Xshell 修改步骤</h2><ol><li>找到 Xshell 7 图标，右键 –  打开文件所在的位置 – 找到 Xshell.exe（建议备份该执行文件）</li><li>打开 HexEd 在线平台，左上角【打开文件】，选择 Xshell.exe 文件，然后查找：<br><code>74 11 6A 00 6A 07 6A 01</code><br>将第一位的74替换为EB，修改后的结果为：<br><code>EB 11 6A 00 6A 07 6A 01</code></li><li>保存文件</li></ol><h2 id="Xftp-修改步骤"><a href="#Xftp-修改步骤" class="headerlink" title="Xftp 修改步骤"></a>Xftp 修改步骤</h2><ol><li>找到 Xftp 7 图标，右键 –  打开文件所在的位置 – 找到 Xftp.exe（建议备份该执行文件）</li><li>打开 HexEd 在线平台，左上角【打开文件】，选择 Xftp.exe 文件，然后查找：<br><code>75 10 6A 00 6A 07 50 6A</code><br>将第一位的74替换为EB，修改后的结果为：<br><code>EB 10 6A 00 6A 07 50 6A</code></li><li>保存文件</li></ol><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://blog.upx8.com/3430">https://blog.upx8.com/3430</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
     
     
     <categories>
@@ -50,8 +104,6 @@
       <tag>Blog</tag>
       
       <tag>Hexo</tag>
-      
-      <tag>搭建</tag>
       
     </tags>
     
