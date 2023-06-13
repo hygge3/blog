@@ -1,0 +1,16 @@
+# welcome to : hygge.eu.org
+User-agent: *
+Allow: /
+Allow: /posts/
+Allow: /about/
+Allow: /tags/
+Allow: /categories/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /lib/
+
+Sitemap: https://hygge.eu.org/sitemap.xml
+Sitemap: https://hygge.eu.org/baidusitemap.xml
