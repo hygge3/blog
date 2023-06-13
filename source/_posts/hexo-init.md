@@ -32,11 +32,7 @@ Hexo 框架具有如下特性：
 npm install -g hexo-cli
 ```
 
-
-
-
-
 相关链接：
 
-- **Hexo 官网**：https://hexo.io
-- **GitHub 主页**：https://github.com/hexojs
+- **Hexo 官网**：<https://hexo.io>
+- **GitHub 主页**：<https://github.com/hexojs>

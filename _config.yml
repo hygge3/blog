@@ -6,14 +6,14 @@
 title: Hygge's Blog
 subtitle: '全沾工程师'
 description: '用代码表达言语的魅力，用代码书写山河的壮丽'
-keywords: ['Java','Spring',"SpringBoot"]
+keywords: ['Java']
 author: Hygge
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://hygge3.github.io
+url: https://hygge.eu.org
 permalink: posts/:abbrlink.html
 abbrlink:
   alg: crc32
