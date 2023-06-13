@@ -2,33 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://hygge.eu.org/posts/14ca9fa7</loc>
-    
-    <lastmod>2023-06-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hygge.eu.org/baidu_verify_codeva-mWXhBpRoYM</loc>
-    
-    <lastmod>2023-06-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hygge.eu.org/about/</loc>
-    
-    <lastmod>2023-06-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hygge.eu.org/posts/14a1a1a5</loc>
     
     <lastmod>2023-06-13</lastmod>
@@ -57,6 +30,33 @@
   
   <url>
     <loc>https://hygge.eu.org/posts/160ecfdc</loc>
+    
+    <lastmod>2023-06-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hygge.eu.org/posts/14ca9fa7</loc>
+    
+    <lastmod>2023-06-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hygge.eu.org/baidu_verify_codeva-mWXhBpRoYM</loc>
+    
+    <lastmod>2023-06-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hygge.eu.org/about/</loc>
     
     <lastmod>2023-06-13</lastmod>
     
