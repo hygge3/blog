@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/favicon.png
+favicon: /img/favicon.ico
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/fluid.png
+apple_touch_icon: /img/favicon.png
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -225,7 +225,7 @@ color:
 # Font
 font:
   font_size: 16px
-  font_family: 'LXGW WenKai Mono'
+  font_family: 
   letter_spacing: 0.02em
   code_font_size: 85%
 
@@ -424,9 +424,7 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <!--<a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>-->
     <i class="iconfont icon-love"></i>
-    <!--<a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>-->
     <div style="font-size: 0.85rem">
       <span id="timeDate">载入天数...</span>
       <span id="times">载入时分秒...</span>
@@ -469,7 +467,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.png
+  banner_img: https://bing.img.run/1920x1080.php
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -488,7 +486,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "An elegant Material-Design theme for Hexo"
+    text: "用代码表达言语的魅力，用代码书写山河的壮丽"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -496,26 +494,22 @@ index:
       enable: true
 
       # 请求地址
-      # Request url
       url: "https://v1.hitokoto.cn/"
 
       # 请求方法
-      # Request method
       # Available: GET | POST | PUT
       method: "GET"
 
       # 请求头
-      # Request headers
       headers: {}
 
       # 从请求结果获取字符串的取值字段，最终必须是一个字符串，例如返回结果为 {"data": {"author": "fluid", "content": "An elegant theme"}}, 则取值字段为 ['data', 'content']；如果返回是列表则自动选择第一项
-      # The value field of the string obtained from the response. For example, the response content is {"data": {"author": "fluid", "content": "An elegant theme"}}, the expected `keys: ['data','content']`; if the return is a list, the first item is automatically selected
       keys: ['hitokoto']
 
   # 自动截取文章摘要
   # Auto extract post
   auto_excerpt:
-    enable: false
+    enable: true
 
   # 打开文章的标签方式
   # The browser tag to open the post
@@ -886,10 +880,10 @@ giscus:
   repo: hygge3/blog
   repo-id: R_kgDOJkoKHQ
   category: General
-  category-id: DIC_kwDOJkoKHc4CWvKX
+  category-id: DIC_kwDOJkoKHc4CWvKW
   theme-light: light
   theme-dark: dark
-  mapping: title
+  mapping: pathname
   reactions-enabled: 1
   emit-metadata: 0
   input-position: top
@@ -961,7 +955,7 @@ about:
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  avatar: /img/avatar.png
+  avatar: /img/avatar.webp
   name: "Hygge"
   intro: "用代码表达言语的魅力，用代码书写山河的壮丽"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
@@ -1041,7 +1035,7 @@ links:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: giscus
 
 
 #---------------------------
@@ -1061,42 +1055,42 @@ static_prefix:
   internal_css: /css
   internal_img: /img
 
-  anchor: https://lib.baomitu.com/anchor-js/4.3.1/
+  anchor: https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/
 
-  github_markdown: https://lib.baomitu.com/github-markdown-css/4.0.0/
+  github_markdown: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/
 
-  jquery: https://lib.baomitu.com/jquery/3.6.0/
+  jquery: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/
 
-  bootstrap: https://lib.baomitu.com/twitter-bootstrap/4.6.1/
+  bootstrap: https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.7/
 
-  prismjs: https://lib.baomitu.com/prism/1.29.0/
+  prismjs: https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/
 
-  tocbot: https://lib.baomitu.com/tocbot/4.18.2/
+  tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.36.4/
 
-  typed: https://lib.baomitu.com/typed.js/2.0.12/
+  typed: https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/
 
-  fancybox: https://lib.baomitu.com/fancybox/3.5.7/
+  fancybox: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/
 
-  nprogress: https://lib.baomitu.com/nprogress/0.2.0/
+  nprogress: https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/
 
-  mathjax: https://lib.baomitu.com/mathjax/3.2.2/
+  mathjax: https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/
 
-  katex: https://lib.baomitu.com/KaTeX/0.16.2/
+  katex: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/
 
-  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
+  busuanzi: https://cdnjs.cloudflare.com/ajax/libs/busuanzi/2.3.0/
 
-  clipboard: https://lib.baomitu.com/clipboard.js/2.0.11/
+  clipboard: https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/
 
-  mermaid: https://lib.baomitu.com/mermaid/8.14.0/
+  mermaid: https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.8.0/
 
-  valine: https://lib.baomitu.com/valine/1.5.1/
+  valine: https://cdnjs.cloudflare.com/ajax/libs/valine/1.5.3/
 
-  waline: https://lib.baomitu.com/waline/2.14.1/
+  waline: https://cdnjs.cloudflare.com/ajax/libs/waline/3.5.7/
 
-  gitalk: https://lib.baomitu.com/gitalk/1.8.0/
+  gitalk: https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/
 
-  disqusjs: https://lib.baomitu.com/disqusjs/1.3.0/
+  disqusjs: https://cdnjs.cloudflare.com/ajax/libs/disqusjs/3.1.0/
 
-  twikoo: https://lib.baomitu.com/twikoo/1.6.8/
+  twikoo: https://cdnjs.cloudflare.com/ajax/libs/twikoo/1.6.44/
 
-  hint: https://lib.baomitu.com/hint.css/2.7.0/
+  hint: https://cdnjs.cloudflare.com/ajax/libs/hint.css/3.0.0/
