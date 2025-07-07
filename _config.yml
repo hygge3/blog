@@ -106,7 +106,9 @@ theme: fluid # 当前主题名称。 值为false时禁用主题
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy: # 部署部分的设置
-  type: ''
+  type: git
+  repo: https://github.com/hygge3/blog
+  branch: main
 
   
 # Sitemap
