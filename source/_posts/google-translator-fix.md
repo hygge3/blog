@@ -1,11 +1,14 @@
 ---
 title: Google 翻译修复
-date: 2023-06-12 08:45:53
-excerpt: Google 翻译服务已经在中国停止提供，原本的网址 http://translate.google.cn 亦已经换成了普通的 Google Search 搜寻页面，上述转变影响到中国用户在使用 Chrome 浏览器时，将无法使用翻译功能。
+excerpt: >-
+  Google 翻译服务已经在中国停止提供，原本的网址 http://translate.google.cn 亦已经换成了普通的 Google Search
+  搜寻页面，上述转变影响到中国用户在使用 Chrome 浏览器时，将无法使用翻译功能。
 tags:
-- Google Translate
+  - Google Translate
 categories:
-- 软件修改
+  - 软件修改
+abbrlink: '78771240'
+date: 2023-06-12 08:45:53
 ---
 使用下边的方法，可以复活翻译功能。软件支持不仅支持 Windows，还提供了对 Mac，Linux 的支持，操作是一样的。
 

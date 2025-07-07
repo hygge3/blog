@@ -1,12 +1,13 @@
 ---
 title: Hexo 安装
-date: 2023-05-25 21:28:23
 excerpt: Hexo 是一个快速、简洁且高效的博客框架。
 tags:
-- Blog
-- Hexo
+  - Blog
+  - Hexo
 categories:
-- Hexo
+  - Hexo
+abbrlink: 1b0927de
+date: 2023-05-25 21:28:23
 ---
 # 什么是 Hexo？
 

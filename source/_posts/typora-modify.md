@@ -1,12 +1,14 @@
 ---
 title: Typora 修改
-date: 2023-06-12 09:01:48
-excerpt: Typora是一款轻便简洁的Markdown编辑器，支持即时渲染技术，这也是与其他Markdown编辑器最显著的区别。即时渲染使得你写Markdown就想是写Word文档一样流畅自如，不像其他编辑器的有编辑栏和显示栏。
+excerpt: >-
+  Typora是一款轻便简洁的Markdown编辑器，支持即时渲染技术，这也是与其他Markdown编辑器最显著的区别。即时渲染使得你写Markdown就想是写Word文档一样流畅自如，不像其他编辑器的有编辑栏和显示栏。
 tags:
-- Typora
-- Typedown
+  - Typora
+  - Typedown
 categories:
-- 软件修改
+  - 软件修改
+abbrlink: 14ca9fa7
+date: 2023-06-12 09:01:48
 ---
 0.11.18 版本以下均为免费版
 

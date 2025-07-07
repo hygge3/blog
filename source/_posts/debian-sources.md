@@ -1,12 +1,13 @@
 ---
 title: Debian 更换软件源
-date: 2023-06-12 08:32:35
 tags:
-- Linux
-- Debian
-- 软件源
+  - Linux
+  - Debian
+  - 软件源
 categories:
-- Linux
+  - Linux
+abbrlink: 14a1a1a5
+date: 2023-06-12 08:32:35
 ---
 ## 备份原有的源
 
