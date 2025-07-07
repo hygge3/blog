@@ -1,7 +1,6 @@
 ---
 title: Debian 更换软件源
 tags:
-  - Linux
   - Debian
   - 软件源
 categories:

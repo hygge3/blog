@@ -6,7 +6,7 @@ tags:
   - Typora
   - Typedown
 categories:
-  - 软件修改
+  - 软件
 abbrlink: 14ca9fa7
 date: 2023-06-12 09:01:48
 ---
