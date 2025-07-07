@@ -1,6 +1,7 @@
 ---
 title: Hexo 安装
-excerpt: Hexo 是一个快速、简洁且高效的博客框架。
+excerpt: >-
+  Hexo 是一个快速、简洁且高效的博客框架。
 tags:
   - 博客
   - Hexo
