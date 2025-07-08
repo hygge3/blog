@@ -6,7 +6,7 @@ excerpt: >-
 tags:
   - 翻译
 categories:
-  - 软件修改
+  - 软件
 abbrlink: '78771240'
 date: 2023-06-12 08:45:53
 ---
